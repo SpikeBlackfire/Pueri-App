@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+ 
+ 
+
+ html {
+   scroll-behavior: smooth;
+ }
+ body {
+  margin:0;
+  overflow-x:hidden;
+
+  }
+
+ #grad1 {
+  /*height: 900px;*/
+  margin: 0 auto;
+  /*background-color: pink;  For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, rgb(246, 188, 229), white);
+}
+
+ h1{
+font-family: Architects Daughter;
+ }
+
+ h2{
+  font-family: Roboto Condensed ;
+ }
+
+
+ .carousel-inner>.item>img {
+   width: 640px;
+   height: 360px;
+ }
+
+
+ .card-text {
+   font-family: 'Exo 2', sans-serif;
+ }
+
+ .card-title {
+   font-family: 'Oooh Baby', cursive;
+   font-size: 32px;
+ }
+
+ .responsive-video {
+   position: relative;
+   padding-bottom: 5%;
+   
+ }
+
+ .responsive-video iframe,
+ .responsive-video object,
+ .responsive-video embed {
+   
+   top: 0;
+   left: 0;
+   width: 95%;
+   
+ }
+
+ #tituloRedes{
+  color: blueviolet;
+    text-align: right;
+    padding-right: 2%;
+   }
+
+
+
+ .txt-right{
+  text-align: right;
+  padding-right: 2%;
+ }
+
+ #news{
+   padding-left: 3%;
+   padding-right: 3%; 
+   position:right;
+ }
+
+ .blockquote{
+  padding-right: 5px;
+ }
+
+ #teta-text{
+
+padding-bottom: 2%; 
+ }
+
+
+ #acadp-img{
+   height:10% ;
+   width:10%
+ }
+
+#footer {
+
+  color:darkgray;
+  text-align:right;
+  font-size: small;
+  font-style: italic;
+  padding-right: 5%;
+  padding-bottom: 5px;
+  padding-top: 1px;
+  width: 100%;
+  margin-right: 5px;
+ 
+}
+ 
+
+/* botón flotante*/
+.float{
+  visibility: hidden;
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:10px;
+	right:40px;
+}
+
+@media (min-width:320px)  {
+
+  .float{
+
+    float: right;
+    margin-right: 5%;
+  }
+}
+
+.socialmediaIcons{
+  background-color: transparent;
+}
+
+#redesIcons{
+  text-align: right;
+}
+
+.section{
+    padding-top: 5%;
+    padding-left: 2%;
+
+}
+
+.ajustador{
+  padding-left: 2%;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-right:2%
+}
+
+#ajustador{
+  padding-left: 2%;
+  padding-top:2%
+}
+
+.iframe-rwd  {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  }
